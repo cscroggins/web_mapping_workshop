@@ -26,7 +26,7 @@ var featureLayer = L.mapbox.featureLayer()
 featureLayer.on('ready', function(){
     this.setStyle({
         "color": "#6583BF",
-        "fillColor": "red",
+        "fillColor": "#999",
         "weight": .5,
         "opacity": 0.65
     });
