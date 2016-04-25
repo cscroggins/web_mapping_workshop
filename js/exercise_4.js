@@ -77,7 +77,7 @@ map.on('locationfound', function(e) {
         },
         properties: {
             'title': 'Here I am!',
-            'marker-color': '#ff8888',
+            'marker-color': 'purple',
             'marker-symbol': 'star'
         }
     });
