@@ -127,7 +127,7 @@ featureLayer.on('ready', function(){
     "fillColor":"#6583BF",
     "weight": .5,
     "opacity": 0.65
-   })
+  })
    map.fitBounds (featureLayer.getBounds());
   })
 
