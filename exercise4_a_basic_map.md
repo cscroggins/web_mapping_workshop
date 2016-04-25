@@ -100,7 +100,7 @@ Open `js/exercise_4.js` in Prose.io.  It should look something like this:
 
 // Enter your mapbox map id here to reference it for the base layer,
 // this one references the ugly green map that I made.
-var mapId = 'will-breitkreutz.k6fj4l3f';
+var mapId = 'cscroggins.pp97ee0e';
 
 // And this is my access token, use yours.
 var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
