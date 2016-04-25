@@ -117,14 +117,14 @@ map.setView([39, -96], 4);
 
 var dataFileToAdd = 'data/parks.geojson';
 
-var featureLayer = 'L.mapbox.featureLayer();
+var featureLayer = L.mapbox.featureLayer();
     featureLayer.loadURL(dataFileToAdd);
     featureLayer.addTo(map);
     
 featureLayer.on('ready', function(){
   this.setStyle({
     "color":"6583BF"
-    "fillColor": "#6583BF"
+    "fillColor":"#6583BF"
     "weight": .5,
     "opacity": 0.65
    })
