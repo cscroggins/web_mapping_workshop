@@ -115,7 +115,22 @@ map.setView([39, -96], 4);
 
 // Great, now we have a basic web map!
 
-```
+var dataFileToAdd = 'data/parks.geojson';
+
+var featureLayer = 'L.mapbox.featureLayer();
+    featureLayer.loadURL(dataFileToAdd);
+    featureLayer.addTo(map);
+    
+featureLayer.on('ready', function(){
+  this.setStyle({
+    "color":"6583BF"
+    "fillColor": "#6583BF"
+    "weight": .5,
+    "opacity": 0.65
+  })
+  map.fitBounds (featureLayer.getBounds());
+  })
+
 
 You'll notice that I've inluded a map ID and access token that are unique to my MapBox account, and that green map.
 
