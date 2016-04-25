@@ -83,6 +83,7 @@ map.on('locationfound', function(e) {
     });
 
 });
+
 map.locate({setView:true});
 
 
