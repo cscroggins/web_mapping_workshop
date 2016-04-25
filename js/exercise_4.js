@@ -66,6 +66,7 @@ var myLocation = L.mapbox.featureLayer()
 
 
 var myLocation = L.mapbox.featureLayer().addTo(map);
+
 map.on('locationfound', function(e) {
 
     myLocation.setGeoJSON({
