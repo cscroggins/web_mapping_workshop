@@ -103,7 +103,7 @@ Open `js/exercise_4.js` in Prose.io.  It should look something like this:
 var mapId = 'cscroggins.pp97ee0e';
 
 // And this is my access token, use yours.
-var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
+var accessToken = 'pk.eyJ1IjoiY3Njcm9nZ2lucyIsImEiOiJjaW5nMGxwbnIxOXl3dXNrdnZzbmNsczFqIn0.Uo0GFJh7fGIeHZGXSEAX0Q';
 
 // Create the map object with your mapId and token,
 // referencing the DOM element where you want the map to go.
